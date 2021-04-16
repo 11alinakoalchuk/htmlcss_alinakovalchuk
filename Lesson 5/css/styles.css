@@ -1,0 +1,119 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Roboto", sans-serif;
+}
+.container {
+  max-width: 1600px;
+  margin: 0 auto;
+}
+/*Header*/
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  line-height: 24px;
+  color: #1b0a42;
+  text-align: center;
+  margin: 30px 68px 0 80px;
+}
+.header__logo {
+  margin-right: 97px;
+}
+.header__menu {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin-right: 750px;
+}
+.header__menu-item {
+  text-decoration: none;
+  color: #1b0a42;
+}
+.header__menu-list {
+  margin-right: 38px;
+}
+.header__menu-list:last-child {
+  margin-right: 0px;
+}
+.header__buttons {
+  display: flex;
+  text-decoration: none;
+}
+.header__buttons-Sign-in {
+  margin-right: 40px;
+  text-decoration: none;
+  color: #1b0a42;
+  width: 51px;
+  font-size: 16px;
+  line-height: 24px;
+  margin-top: 18px;
+}
+.header__buttons-Sign-in:hover {
+  color: rgb(0, 119, 255);
+}
+.header__buttons-Sign-up {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  cursor: pointer;
+  background: #33a2e0;
+  border-radius: 6px;
+  border: 0;
+  transition: all 0.3s;
+  width: 120px;
+  height: 60px;
+}
+.header__buttons-Sign-up:hover {
+  background: rgb(23, 201, 233);
+}
+/*Content*/
+.content {
+  display: flex;
+  position: relative;
+}
+.content__title-main {
+  max-width: 495px;
+  font-family: Ramaraja;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 72px;
+  line-height: 76px;
+  color: #1b0a42;
+  margin: 208px 64px 18px 200px;
+}
+.content__text {
+  max-width: 559px;
+  margin: 0 0 50px 200px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 32px;
+  letter-spacing: 0.02em;
+  color: #9a9a9a;
+}
+.content__button {
+  color: #ffffff;
+  background: #33a2e0;
+  border-radius: 6px;
+  padding: 18px 32px;
+  margin: 0 407px 0 200px;
+  border: 0;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 32px;
+  width: 152px;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+.content__button:hover {
+  background: rgb(23, 201, 233);
+}
+.content__img {
+  padding: 131px 45px 156px 0;
+}
